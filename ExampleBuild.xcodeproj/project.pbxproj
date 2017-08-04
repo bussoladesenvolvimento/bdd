@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		159C94C519DBF2127CF4D833 /* Pods_ExampleBuildTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA18C06CDB6546FF9ECF92DD /* Pods_ExampleBuildTests.framework */; };
+		3134EA8D0365809E94E42EFB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DDDEC3AA5B27B457E5D01B /* AssetsLibrary.framework */; };
+		34B1D4E3F7E510017CA76588 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E649633BC43514102E2627A /* CoreText.framework */; };
 		3F0319D21F32431900CF7304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0319D11F32431900CF7304 /* AppDelegate.swift */; };
 		3F0319D41F32431900CF7304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0319D31F32431900CF7304 /* ViewController.swift */; };
 		3F0319D71F32431900CF7304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0319D51F32431900CF7304 /* Main.storyboard */; };
@@ -30,7 +32,14 @@
 		3F437F651F33A38500155E06 /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F437F641F33A38500155E06 /* AuthData.swift */; };
 		3F437F681F33AB2C00155E06 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F437F671F33AB2C00155E06 /* Constants.swift */; };
 		3F437F6A1F33DA5600155E06 /* ViewModelPadrao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F437F691F33DA5600155E06 /* ViewModelPadrao.swift */; };
+		54FBBADF9ACAFD9B84A95310 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F87A296694FC93F0BDFE57 /* AVFoundation.framework */; };
+		5886AF03A65E2FFF80B23356 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C9295DF199442653677DA2 /* BuddyBuildSDK.framework */; };
+		76923B32ED2F5D2F211ADD97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B4A7390A333FF734DC84A5 /* QuartzCore.framework */; };
+		7EEA1F57A25D54D13AD46AC7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047F68FCF95D57AA4AAC69DD /* CoreMedia.framework */; };
+		9966D001FAD78491070089CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC03896776B8EBFDD11E543 /* SystemConfiguration.framework */; };
 		A1C6439F1F349E0A00622857 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6439E1F349E0A00622857 /* Extensions.swift */; };
+		BAD62779EA0EB6858EAB5A59 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7882C14904B7C2977FE129B7 /* CoreTelephony.framework */; };
+		D40C76D0AE208138D7E30E41 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1679B0EAD77570EBB7DA4E2F /* CoreVideo.framework */; };
 		E62972AC5F69740FFE8CE966 /* Pods_ExampleBuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D7F111C6466D5ACC5CA6A8 /* Pods_ExampleBuild.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047F68FCF95D57AA4AAC69DD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0EC03896776B8EBFDD11E543 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		13C9295DF199442653677DA2 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		1679B0EAD77570EBB7DA4E2F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		2CDD7DCF1AE40ED8A7351E73 /* Pods-ExampleBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleBuild.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleBuild/Pods-ExampleBuild.debug.xcconfig"; sourceTree = "<group>"; };
 		39D7F111C6466D5ACC5CA6A8 /* Pods_ExampleBuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleBuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0319CE1F32431900CF7304 /* ExampleBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleBuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,9 +86,15 @@
 		3F437F641F33A38500155E06 /* AuthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
 		3F437F671F33AB2C00155E06 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3F437F691F33DA5600155E06 /* ViewModelPadrao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelPadrao.swift; sourceTree = "<group>"; };
+		45DDDEC3AA5B27B457E5D01B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		5820FDF59B49B9D853EEDFF4 /* Pods-ExampleBuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleBuild.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleBuild/Pods-ExampleBuild.release.xcconfig"; sourceTree = "<group>"; };
+		6E649633BC43514102E2627A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		70B4A7390A333FF734DC84A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7882C14904B7C2977FE129B7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A1C6439E1F349E0A00622857 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1F87A296694FC93F0BDFE57 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AA18C06CDB6546FF9ECF92DD /* Pods_ExampleBuildTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleBuildTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37A4EB6B7378B43336CF2CD /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		ECF44B3A1E8D740190C27648 /* Pods-ExampleBuildTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleBuildTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleBuildTests/Pods-ExampleBuildTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F98860EDA4C57EC0D8A36335 /* Pods-ExampleBuildTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleBuildTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleBuildTests/Pods-ExampleBuildTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +105,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62972AC5F69740FFE8CE966 /* Pods_ExampleBuild.framework in Frameworks */,
+				5886AF03A65E2FFF80B23356 /* BuddyBuildSDK.framework in Frameworks */,
+				3134EA8D0365809E94E42EFB /* AssetsLibrary.framework in Frameworks */,
+				34B1D4E3F7E510017CA76588 /* CoreText.framework in Frameworks */,
+				BAD62779EA0EB6858EAB5A59 /* CoreTelephony.framework in Frameworks */,
+				9966D001FAD78491070089CB /* SystemConfiguration.framework in Frameworks */,
+				76923B32ED2F5D2F211ADD97 /* QuartzCore.framework in Frameworks */,
+				54FBBADF9ACAFD9B84A95310 /* AVFoundation.framework in Frameworks */,
+				7EEA1F57A25D54D13AD46AC7 /* CoreMedia.framework in Frameworks */,
+				D40C76D0AE208138D7E30E41 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +136,7 @@
 				3F0319CF1F32431900CF7304 /* Products */,
 				DF90CD1C5A3A18599DB24750 /* Pods */,
 				CC2884DBADC8A6CDEAD2FF19 /* Frameworks */,
+				B37A4EB6B7378B43336CF2CD /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +241,15 @@
 			children = (
 				39D7F111C6466D5ACC5CA6A8 /* Pods_ExampleBuild.framework */,
 				AA18C06CDB6546FF9ECF92DD /* Pods_ExampleBuildTests.framework */,
+				13C9295DF199442653677DA2 /* BuddyBuildSDK.framework */,
+				45DDDEC3AA5B27B457E5D01B /* AssetsLibrary.framework */,
+				6E649633BC43514102E2627A /* CoreText.framework */,
+				7882C14904B7C2977FE129B7 /* CoreTelephony.framework */,
+				0EC03896776B8EBFDD11E543 /* SystemConfiguration.framework */,
+				70B4A7390A333FF734DC84A5 /* QuartzCore.framework */,
+				A1F87A296694FC93F0BDFE57 /* AVFoundation.framework */,
+				047F68FCF95D57AA4AAC69DD /* CoreMedia.framework */,
+				1679B0EAD77570EBB7DA4E2F /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -591,10 +629,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ARMU3CM3A3;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ExampleBuild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twopix.ExampleBuild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -606,10 +649,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ARMU3CM3A3;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ExampleBuild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twopix.ExampleBuild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
