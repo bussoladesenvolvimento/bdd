@@ -35,7 +35,6 @@ class RestauranteWorkTest: QuickSpec {
                     it("Servidor deve retornar um restaurante na localizacao", closure: {
                         waitUntil(timeout: 10, action: { (done) in
                             let request = controller.prepararDados(lat:20.0, long:30.0)
-                            request.url = URL(string: "http://www.mocky.io/v2/59839d61100000850fa8513a-jghj")!
                             worker.obterRestaurante(data: request, completion: { (response) in
                                 expect(response.viewModelPadrao.status).to(equal(true))
                                 expect(response.viewModelPadrao.statusResponse).to(equal(200))
